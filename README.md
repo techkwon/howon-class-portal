@@ -51,4 +51,5 @@ netlify deploy --prod --no-build --dir . --site <site-id>
 
 ## 배포 기록
 
-- 2026-10-26 처음 만듦 · 배포
+- 2026-10-26 처음 만듦 · 배포 — Netlify site id `f99af36a-c7e9-45b8-94fb-d3a55b9fbd90`
+- Netlify 무료 요금제가 페이지에 「Powered by Netlify」 HUD 스크립트(`/.netlify/scripts/hud`)를 자동으로 넣는다. 포털 자체 코드에는 스크립트가 없다

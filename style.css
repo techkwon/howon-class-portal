@@ -18,6 +18,7 @@
   --c3: #8a5a00;  --c3-soft: #fbf0d6;
   --c4: #0f766e;  --c4-soft: #ddf3f0;
   --c5: #3f7d1f;  --c5-soft: #e7f3dc;
+  --c6: #b4235a;  --c6-soft: #fbe4ec;
 }
 
 @media (prefers-color-scheme: dark) {
@@ -39,6 +40,7 @@
     --c3: #f2c35b;  --c3-soft: #352b14;
     --c4: #5fd4c6;  --c4-soft: #13312e;
     --c5: #9ad672;  --c5-soft: #1f3317;
+    --c6: #ff8fb8;  --c6-soft: #3a1826;
   }
 }
 :root[data-theme="dark"] {
@@ -59,6 +61,7 @@
   --c3: #f2c35b;  --c3-soft: #352b14;
   --c4: #5fd4c6;  --c4-soft: #13312e;
   --c5: #9ad672;  --c5-soft: #1f3317;
+  --c6: #ff8fb8;  --c6-soft: #3a1826;
 }
 
 *, *::before, *::after { box-sizing: border-box; }
@@ -129,6 +132,7 @@ a { color: inherit; }
 .u3 { --accent: var(--c3); --accent-soft: var(--c3-soft); }
 .u4 { --accent: var(--c4); --accent-soft: var(--c4-soft); }
 .u5 { --accent: var(--c5); --accent-soft: var(--c5-soft); }
+.u6 { --accent: var(--c6); --accent-soft: var(--c6-soft); }
 
 .grid { display: grid; gap: 18px; grid-template-columns: repeat(auto-fit, minmax(260px, 1fr)); }
 

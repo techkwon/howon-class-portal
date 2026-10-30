@@ -1,6 +1,6 @@
 # 3학년 기술 수업 사이트 모음 (수업 포털)
 
-호원중학교 3학년 기술 · 2026학년도 2학기 수업에서 쓴 웹 사이트 10개를 수업 순서대로 한 쪽에 모은 정적 페이지.
+호원중학교 3학년 기술 · 2026학년도 2학기 수업에서 쓴 웹 사이트 11개를 수업 순서대로 한 쪽에 모은 정적 페이지.
 
 - 포털 주소: https://ict-howon-portal.netlify.app
 - 공개 저장소: https://github.com/techkwon/howon-class-portal
@@ -21,6 +21,7 @@
 | 교양 (성적 미반영) | 교양 8 | 호원버거 키오스크 챌린지 | https://ict-kiosk-challenge.netlify.app | `howon-burger-kiosk-challenge` | — |
 | 수행평가 ③ 프로젝트 | 9~12 | 아이디어 공모전 | https://ict-idea-contest.netlify.app | `howon-idea-contest` | [9기가04-18] |
 | 생명 기술 (평가 없음) | 13~16 | 생명 기술 대작전 | https://ict-bio-battle.netlify.app (진행판 `/host.html`) | `howon-bio-battle` | [9기가04-08] |
+| 적정 기술 (성적 미반영) | 12월~1월 | 손잡이 동아리 (비주얼 노벨) | https://ict-handshake-club.netlify.app (진행판 `/host.html`) | `howon-handshake-club` | [9기가05-09] |
 
 저장소는 모두 `https://github.com/techkwon/<저장소>` 이다. 채점 보고서(ict-jev-reliability)는 넣지 않는다.
 
@@ -42,7 +43,7 @@ netlify deploy --prod --no-build --dir . --site <site-id>
 ```
 
 - Netlify 사이트 이름 `ict-howon-portal` · site id 는 아래 「배포 기록」
-- 교사 PC 원본 폴더에는 git 이 없고, 이 저장소는 그 사본이다. 원본을 고치면 여기에 복사해 커밋 · 푸시한다
+- **이 폴더에는 git 이 없다.** 깃허브는 사본(scratchpad `gh/howon-class-portal/`)에서 올렸다 → 여기서 고치면 깃허브는 저절로 안 바뀐다. 사본에 복사해 커밋 · 푸시한다
 
 ## 개인정보
 
@@ -51,5 +52,6 @@ netlify deploy --prod --no-build --dir . --site <site-id>
 
 ## 배포 기록
 
+- 2026-10-30 「손잡이 동아리」 카드 추가(단원 색 `--c6`)
 - 2026-10-26 처음 만듦 · 배포 — Netlify site id `f99af36a-c7e9-45b8-94fb-d3a55b9fbd90`
 - Netlify 무료 요금제가 페이지에 「Powered by Netlify」 HUD 스크립트(`/.netlify/scripts/hud`)를 자동으로 넣는다. 포털 자체 코드에는 스크립트가 없다

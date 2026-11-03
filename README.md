@@ -52,6 +52,7 @@ netlify deploy --prod --no-build --dir . --site <site-id>
 
 ## 배포 기록
 
+- 2026-11-04 「손잡이 동아리」 카드에 PV 영상(48초) — 영상은 손잡이 사이트의 `video/pv.mp4` 를 바로 불러오고(포털에 복사 안 함 · 미리 받지 않음), 표지만 `img/handshake-pv.webp`. PV를 바꾸면 손잡이 사이트만 배포하면 된다(표지가 바뀌면 이 webp 도 다시)
 - 2026-10-30 「손잡이 동아리」 카드 추가(단원 색 `--c6`)
 - 2026-10-26 처음 만듦 · 배포 — Netlify site id `f99af36a-c7e9-45b8-94fb-d3a55b9fbd90`
 - Netlify 무료 요금제가 페이지에 「Powered by Netlify」 HUD 스크립트(`/.netlify/scripts/hud`)를 자동으로 넣는다. 포털 자체 코드에는 스크립트가 없다

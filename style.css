@@ -179,6 +179,10 @@ a { color: inherit; }
   .card.wide { flex-direction: row; }
   .card.wide .thumb { flex: 0 0 42%; aspect-ratio: auto; min-height: 100%; border-bottom: 0; border-right: 1px solid var(--line); }
 }
+/* 손잡이 동아리 — PV 영상 */
+.pv { margin: 0 0 16px; max-width: 560px; }
+.pv video { display: block; width: 100%; height: auto; aspect-ratio: 16 / 9; border-radius: 10px; background: #000; }
+.pv figcaption { margin-top: 6px; font-size: 13px; color: var(--ink-3); }
 .games { margin: 0 0 16px; display: grid; gap: 8px; grid-template-columns: repeat(auto-fill, minmax(140px, 1fr)); }
 .game { background: var(--surface-2); border-radius: 10px; padding: 8px 12px; }
 .game b { display: block; font-size: 12.5px; color: var(--accent); }

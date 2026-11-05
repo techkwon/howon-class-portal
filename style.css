@@ -170,6 +170,8 @@ a { color: inherit; }
   background: var(--btn); color: var(--btn-ink); text-decoration: none; font-weight: 700; font-size: 15px;
 }
 .go:hover { filter: brightness(1.15); }
+.go.alt { background: transparent; color: var(--accent); box-shadow: inset 0 0 0 2px var(--accent); }
+.go.alt:hover { background: var(--accent-soft); filter: none; }
 .code {
   display: inline-flex; align-items: center; gap: 5px; min-height: 32px;
   color: var(--ink-3); font-size: 13.5px; text-decoration: none;

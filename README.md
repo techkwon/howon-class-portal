@@ -22,7 +22,7 @@
 | 수행평가 ③ 프로젝트 | 9~12 | 아이디어 공모전 | https://ict-idea-contest.netlify.app | `howon-idea-contest` | [9기가04-18] |
 | 생명 기술 (평가 없음) | 13~16 | 생명 기술 대작전 | https://ict-bio-battle.netlify.app (진행판 `/host.html`) | `howon-bio-battle` | [9기가04-08] |
 | 적정 기술 (성적 미반영) | 12월~1월 | 손잡이 동아리 (비주얼 노벨) | https://ict-handshake-club.netlify.app (진행판 `/host.html` · 혼자 하기 `/alone`) | `howon-handshake-club` | [9기가05-09] |
-| 진로 | — | 30살은 감다살 (진로 육성 게임) | https://gamdasal.pages.dev (영상 https://youtu.be/VrhkJdDxPGs) | — (코드 보기 없음) | — |
+| 진로 | — | 30살은 감다살 (진로 육성 게임) | https://gamdasal.pages.dev (영상 https://youtu.be/VrhkJdDxPGs) | `gamdasal` | — |
 
 저장소는 모두 `https://github.com/techkwon/<저장소>` 이다. 채점 보고서(ict-jev-reliability)는 넣지 않는다.
 
@@ -53,6 +53,7 @@ netlify deploy --prod --no-build --dir . --site <site-id>
 
 ## 배포 기록
 
+- 2026-11-05 「30살은 감다살」 카드에 「코드 보기」(https://github.com/techkwon/gamdasal — 교사 확정으로 다른 컴퓨터 세션이 공개)
 - 2026-11-05 「손잡이 동아리」 썸네일 다시 찍음(학생 들어가기 화면 · 번호 1~99 · PV 보기 단추 · 메뉴 아이콘이 들어간 지금 판, `?nointro=1` 로 인트로 건너뛰고 1280×800 → 800×500)
 - 2026-11-05 「손잡이 동아리」 카드에 「혼자 해 보기」(`/alone`) 단추 · 테두리만 있는 두 번째 단추 꼴 `.go.alt`
 - 2026-11-05 「기술·가정과 진로」 단원(색 `--c7` 보라) · 「30살은 감다살」 카드 추가(교사 지시) — 썸네일은 유튜브 소개 영상 표지(`img/gamdasal.webp`), 바로 가기 = 플레이 · 소개 영상

@@ -1,6 +1,6 @@
 # 3학년 기술 수업 사이트 모음 (수업 포털)
 
-호원중학교 3학년 기술 · 2026학년도 2학기 수업에서 쓴 웹 사이트 11개를 수업 순서대로 한 쪽에 모은 정적 페이지.
+호원중학교 3학년 기술 · 2026학년도 2학기 수업에서 쓴 웹 사이트 12개를 수업 순서대로 한 쪽에 모은 정적 페이지.
 
 - 포털 주소: https://ict-howon-portal.netlify.app
 - 공개 저장소: https://github.com/techkwon/howon-class-portal
@@ -22,6 +22,7 @@
 | 수행평가 ③ 프로젝트 | 9~12 | 아이디어 공모전 | https://ict-idea-contest.netlify.app | `howon-idea-contest` | [9기가04-18] |
 | 생명 기술 (평가 없음) | 13~16 | 생명 기술 대작전 | https://ict-bio-battle.netlify.app (진행판 `/host.html`) | `howon-bio-battle` | [9기가04-08] |
 | 적정 기술 (성적 미반영) | 12월~1월 | 손잡이 동아리 (비주얼 노벨) | https://ict-handshake-club.netlify.app (진행판 `/host.html`) | `howon-handshake-club` | [9기가05-09] |
+| 진로 | — | 30살은 감다살 (진로 육성 게임) | https://gamdasal.pages.dev (영상 https://youtu.be/VrhkJdDxPGs) | — (코드 보기 없음) | — |
 
 저장소는 모두 `https://github.com/techkwon/<저장소>` 이다. 채점 보고서(ict-jev-reliability)는 넣지 않는다.
 
@@ -29,7 +30,7 @@
 
 - 카드 하나 = `index.html` 의 `<article class="card">` 하나. 복사해 제목 · 설명 · 주소만 바꾼다
 - 혼자 있는 카드는 `card wide` 로 두면 큰 화면에서 가로로 넓게 보인다
-- 단원 색은 `style.css` 맨 위 `--c1`~`--c5` (다크 모드 값은 그 아래 두 곳)
+- 단원 색은 `style.css` 맨 위 `--c1`~`--c7` (다크 모드 값은 그 아래 두 곳)
 
 ### 썸네일 다시 찍기
 
@@ -52,6 +53,7 @@ netlify deploy --prod --no-build --dir . --site <site-id>
 
 ## 배포 기록
 
+- 2026-11-05 「기술·가정과 진로」 단원(색 `--c7` 보라) · 「30살은 감다살」 카드 추가(교사 지시) — 썸네일은 유튜브 소개 영상 표지(`img/gamdasal.webp`), 바로 가기 = 플레이 · 소개 영상
 - 2026-11-04 「손잡이 동아리」 카드에 PV 영상(48초) — 영상은 손잡이 사이트의 `video/pv.mp4` 를 바로 불러오고(포털에 복사 안 함 · 미리 받지 않음), 표지만 `img/handshake-pv.webp`. PV를 바꾸면 손잡이 사이트만 배포하면 된다(표지가 바뀌면 이 webp 도 다시)
 - 2026-10-30 「손잡이 동아리」 카드 추가(단원 색 `--c6`)
 - 2026-10-26 처음 만듦 · 배포 — Netlify site id `f99af36a-c7e9-45b8-94fb-d3a55b9fbd90`
